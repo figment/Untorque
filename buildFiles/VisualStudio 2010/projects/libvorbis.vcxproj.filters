@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{71e442b0-a44a-4da1-be4a-d77a31210b72}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
+    </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{9fd520f8-0701-40ce-beaa-8a656e4404aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\include">
+      <UniqueIdentifier>{b1501d49-782c-476a-89c7-29c5fc57f747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\lib">
+      <UniqueIdentifier>{aeffbb0d-e89a-4618-956c-05653c8b34ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\lib\books">
+      <UniqueIdentifier>{378723db-4356-4a4c-8566-5d3506a5600b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\lib\books\coupled">
+      <UniqueIdentifier>{72991754-2a9c-4d5b-820f-c77309426c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\lib\books\floor">
+      <UniqueIdentifier>{440b314d-275e-466e-8feb-256ca21768d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\lib\books\uncoupled">
+      <UniqueIdentifier>{53255397-c074-4665-ba4b-6a3f6d0eefcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\lib\modes">
+      <UniqueIdentifier>{5d4a10b5-e15f-45c8-aa05-c54f80068826}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\analysis.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\bitrate.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\block.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\codebook.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\envelope.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\floor0.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\floor1.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\info.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\lookup.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\lpc.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\lsp.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\mapping0.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\mdct.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\psy.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\registry.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\res0.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\sharedbook.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\smallft.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\synthesis.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\vorbisenc.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\vorbisfile.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Engine\lib\libvorbis\lib\window.c">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\include\vorbis\codec.h">
+      <Filter>Source Files\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\include\vorbis\vorbisenc.h">
+      <Filter>Source Files\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\include\vorbis\vorbisfile.h">
+      <Filter>Source Files\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\backends.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\bitrate.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\codebook.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\codec_internal.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\envelope.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\highlevel.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\lookup.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\lookup_data.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\lpc.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\lsp.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\masking.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\mdct.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\misc.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\os.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\psy.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\registry.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\scales.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\smallft.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\window.h">
+      <Filter>Source Files\lib\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\books\coupled\res_books_51.h">
+      <Filter>Source Files\lib\lib\books\coupled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\books\coupled\res_books_stereo.h">
+      <Filter>Source Files\lib\lib\books\coupled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\books\floor\floor_books.h">
+      <Filter>Source Files\lib\lib\books\floor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\books\uncoupled\res_books_uncoupled.h">
+      <Filter>Source Files\lib\lib\books\uncoupled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\floor_all.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\psych_11.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\psych_16.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\psych_44.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\psych_8.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\residue_16.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\residue_44.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\residue_44p51.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\residue_44u.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\residue_8.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_11.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_16.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_22.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_32.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_44.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_44p51.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_44u.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_8.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Engine\lib\libvorbis\lib\modes\setup_X.h">
+      <Filter>Source Files\lib\lib\modes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
